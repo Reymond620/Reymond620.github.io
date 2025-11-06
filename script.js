@@ -10,7 +10,7 @@ const solutionsGrid = document.getElementById('solutionsGrid');
 const footerWa = document.getElementById('footerWa');
 const footerEmail = document.getElementById('footerEmail');
 
-const WA_NUMBER = '5545998181217';
+const WA_NUMBER = '5545998459642';
 const MAIL_ADDRESS = 'DValle.comercial@gmail.com';
 
 function initTheme() {
