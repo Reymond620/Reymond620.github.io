@@ -24,6 +24,11 @@ body {
   color: var(--text-dark);
 }
 
+img{
+  width:30 ;
+  height:40 ;
+}
+
 header {
   display: flex;
   justify-content: space-between;
