@@ -37,11 +37,11 @@ themeToggle.addEventListener('click', () => {
 });
 
 function openWhatsApp() {
-  window.open(`https://wa.me/${https://api.whatsapp.com/send/?phone=5545998459642&text&type=phone_number&app_absent=0}`, '_blank');
-}
+  window.open(`https://wa.me/${WA_NUMBER
+    }
 
 function openEmail() {
-  window.location.href = `mailto:${MAIL_ADDRESS}`;
+  window.location.href = `mailto: ${ MAIL_ADDRESS }`;
 }
 
 if (waBtn) waBtn.addEventListener('click', openWhatsApp);
@@ -82,7 +82,7 @@ if (solutionsGrid) {
       const rect = card.getBoundingClientRect();
       const x = (e.clientX - rect.left) / rect.width - 0.5;
       const y = (e.clientY - rect.top) / rect.height - 0.5;
-      card.style.transform = `translateY(-6px) rotateX(${ -y * 3 }deg) rotateY(${ x * 3 }deg)`;
+      card.style.transform = `translateY(-6px) rotateX(${- y * 3}deg) rotateY(${ x * 3}deg)`;
     });
   });
 
