@@ -37,7 +37,7 @@ themeToggle.addEventListener('click', () => {
 });
 
 function openWhatsApp() {
-  window.open(`https://wa.me/${WA_NUMBER}`, '_blank');
+  window.open(`https://wa.me/${https://api.whatsapp.com/send/?phone=5545998459642&text&type=phone_number&app_absent=0}`, '_blank');
 }
 
 function openEmail() {
