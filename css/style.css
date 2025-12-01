@@ -24,9 +24,9 @@ body {
   color: var(--text-dark);
 }
 
-img{
-  width:50 ;
-  height:40 ;
+img {
+  width: 50;
+  height: 40;
 }
 
 header {
@@ -166,3 +166,4 @@ footer {
   opacity: 1;
   transform: translateY(0);
 }
+
